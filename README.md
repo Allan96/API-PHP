@@ -29,7 +29,7 @@ Ao definir uma URI, utilize nomes legíveis por humanos, que sejam de fácil ded
 ### Evite alterações nas URIs
 
 A URI é a porta de entrada de um serviço. Se você a altera, isso certamente causará impacto nos clientes que estavam a utilizando, pois você alterou a forma de acesso a ele. Após definir uma URI e disponibilizar a manipulação de um recurso por ela, evite ao máximo sua alteração.  <br>
-|MÉTODO|UTILIZAÇÃO|
+| MÉTODO | UTILIZAÇÃO |
 |--|--|
 |GET|Obter os dados de um recurso.|
 |POST|Criar um novo recurso.|
