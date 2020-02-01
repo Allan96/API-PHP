@@ -10,25 +10,25 @@ Ao definir uma URI, utilize nomes legíveis por humanos, que sejam de fácil ded
 ### Utilize o mesmo padrão de URI na identificação dos recurso
 
 ***Evite situações como:***
-~~http://servicorest.com.br/produto (Singular);~~
-~~http://servicorest.com.br/clientes (Plural);~~
-~~http://servicorest.com.br/processosAdministrativos (Camel Case);~~
-~~http://servicorest.com.br/processos_judidicais (Snake Case).~~
+~~http://servicorest.com.br/produto (Singular);~~ <br>
+~~http://servicorest.com.br/clientes (Plural);~~ <br>
+~~http://servicorest.com.br/processosAdministrativos (Camel Case);~~  <br>
+~~http://servicorest.com.br/processos_judidicais (Snake Case).~~  <br>
 
 ### Evite adicionar na URI a operação a ser realizada no recurso
 
-~~http://servicorest.com.br/produtos/cadastrar;~~
-~~http://servicorest.com.br/clientes/10/excluir;~~
-~~http://servicorest.com.br/vendas/34/atualizar.~~
+~~http://servicorest.com.br/produtos/cadastrar;~~ <br>
+~~http://servicorest.com.br/clientes/10/excluir;~~ <br>
+~~http://servicorest.com.br/vendas/34/atualizar.~~ <br>
 
 ### Evite adicionar na URI o formato desejado da representação do recurso
 
-~~http://servicorest.com.br/produtos/xml;~~
-~~http://servicorest.com.br/clientes/112?formato=json.~~
+~~http://servicorest.com.br/produtos/xml;~~ <br>
+~~http://servicorest.com.br/clientes/112?formato=json.~~ <br>
 
 ### Evite alterações nas URIs
 
-A URI é a porta de entrada de um serviço. Se você a altera, isso certamente causará impacto nos clientes que estavam a utilizando, pois você alterou a forma de acesso a ele. Após definir uma URI e disponibilizar a manipulação de um recurso por ela, evite ao máximo sua alteração.
+A URI é a porta de entrada de um serviço. Se você a altera, isso certamente causará impacto nos clientes que estavam a utilizando, pois você alterou a forma de acesso a ele. Após definir uma URI e disponibilizar a manipulação de um recurso por ela, evite ao máximo sua alteração.  <br>
 |MÉTODO|UTILIZAÇÃO|
 |--|--|
 |GET|Obter os dados de um recurso.|
