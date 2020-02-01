@@ -9,7 +9,7 @@ Ao definir uma URI, utilize nomes legíveis por humanos, que sejam de fácil ded
 
 ### Utilize o mesmo padrão de URI na identificação dos recurso
 
-***Evite situações como:***
+***Evite situações como:***  <br>
 ~~http://servicorest.com.br/produto (Singular);~~ <br>
 ~~http://servicorest.com.br/clientes (Plural);~~ <br>
 ~~http://servicorest.com.br/processosAdministrativos (Camel Case);~~  <br>
@@ -28,7 +28,8 @@ Ao definir uma URI, utilize nomes legíveis por humanos, que sejam de fácil ded
 
 ### Evite alterações nas URIs
 
-A URI é a porta de entrada de um serviço. Se você a altera, isso certamente causará impacto nos clientes que estavam a utilizando, pois você alterou a forma de acesso a ele. Após definir uma URI e disponibilizar a manipulação de um recurso por ela, evite ao máximo sua alteração.  <br>
+A URI é a porta de entrada de um serviço. Se você a altera, isso certamente causará impacto nos clientes que estavam a utilizando, pois você alterou a forma de acesso a ele. Após definir uma URI e disponibilizar a manipulação de um recurso por ela, evite ao máximo sua alteração.
+### Métodos HTTP em um serviço REST
 | MÉTODO | UTILIZAÇÃO |
 |--|--|
 |GET|Obter os dados de um recurso.|
