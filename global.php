@@ -1,5 +1,5 @@
 <?php
-if (!defined('CASHFORCE_WEBAPP'))
+if (!defined('API_WEBAPP'))
 {
     die('Desculpe, mas você não pode acessar este arquivo!');
 }
@@ -18,7 +18,7 @@ if (!defined('CASHFORCE_WEBAPP'))
     define('K', 'plugins/');
 
 	
-    require_once A . '/cashforce-config.php';
+    require_once A . '/api-config.php';
 	define('S', $config['skin']);
 	require_once A . B . C . '/functions.php';
 	require_once A . B . C . '/class.html.php';

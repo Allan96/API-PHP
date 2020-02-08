@@ -1,5 +1,5 @@
 <?php
-	if(!defined('CASHFORCE_WEBAPP')) 
+	if(!defined('API_WEBAPP')) 
 	{ 
 		die('Desculpe, mas você não pode acessar este arquivo!'); 
 	}
