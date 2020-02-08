@@ -51,6 +51,8 @@ A URI é a porta de entrada de um serviço. Se você a altera, isso certamente c
 |DELETE|/clientes/id|Excluir um determinado cliente.|
 
 
+<br><br><br><br>
+
 > Todos os direitos reservados dessa explicação sobre APIs REST é para o
 > [Blog  Caelum](https://blog.caelum.com.br/rest-principios-e-boas-praticas/)
 
