@@ -1,4 +1,5 @@
-# REST API EM PHP
+# REST API EM PHP ![License](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/github/repo-size/Allan96/API-PHP) ![GitHub last commit](https://img.shields.io/github/last-commit/Allan96/API-PHP)
+
 **Representational State Transfer**, abreviado como REST, não é uma tecnologia, uma biblioteca, e nem tampouco uma arquitetura, mas sim um modelo a ser utilizado para se projetar arquiteturas de software distribuído, baseadas em comunicação via rede.
 
 ## Algumas características da API Rest
