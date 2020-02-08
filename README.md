@@ -41,7 +41,6 @@ A URI é a porta de entrada de um serviço. Se você a altera, isso certamente c
 |HEAD|Similar ao GET, mas utilizado apenas para se obter os cabeçalhos de resposta, sem os dados em si.|
 |OPTIONS|Obter quais manipulações podem ser realizadas em um determinado recurso.|
 
-
 ## Padrão de utilização dos métodos HTTP em um serviço REST
 |MÉTODO|URI| UTILIZAÇÃO |
 |--|--|--|
